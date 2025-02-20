@@ -1,5 +1,4 @@
 package uniquindio.edu.co;
-
 import javax.swing.*;
 import java.util.Scanner;
 
@@ -21,12 +20,10 @@ public class Main {
         //System.out.println(ninio2.toString());
     }
     public static String ingresarTexto(String mensaje){
-        Scanner scanner = new Scanner(System.in);
         String texto = JOptionPane.showInputDialog(mensaje);
         return texto;
     }
     public static int ingresarEntero(String mensaje){
-        Scanner scanner = new Scanner(System.in);
         int entero = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
         return entero;
     }
@@ -35,26 +32,6 @@ public class Main {
         System.out.println(mensaje);
         char caracter = scanner.nextLine().charAt(0);
         return caracter;
-    }
-    public static int documento_identidad(String mensaje){
-        Scanner scanner = new Scanner(System.in);
-        int documento_identidad = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
-        return documento_identidad;
-    }
-    public static String alergias(String mensaje){
-        Scanner scanner = new Scanner(System.in);
-        String alergias = JOptionPane.showInputDialog(mensaje);
-        return alergias;
-    }
-    public static String nombre_acudiente(String mensaje){
-        Scanner sacnner = new Scanner(System.in);
-        String nombre_acudiente = JOptionPane.showInputDialog(mensaje);
-        return nombre_acudiente;
-    }
-    public static int numero_contacto(String mensaje){
-        Scanner scanner = new Scanner(System.in);
-        int numero_contacto = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
-        return numero_contacto;
     }
 
     }
