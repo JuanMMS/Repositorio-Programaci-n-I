@@ -34,23 +34,21 @@ public class Ninio {
     public void setiD(String iD) {
         this.iD = iD;
     }
-    public String setID() {
-        return iD;
-    }
-    public String setNombre_completo() {
-        return nombre_completo;
-    }
-    public String setGenero(){
-        return genero;
-    }
-    public String setDocumento_identidad() {
-        return documento_identidad;
-    }
-    public String setNombre_acudiente() {
-        return nombre_acudiente;
-    }
-    public int setEdad(){
-        return edad;
-    }
+    public void setNombre_completo(String nombre_completo){ this.nombre_completo;}
+    public void setGenero(String genero){ this.genero = genero;}
+    public void setDocumento_identidad(String documento_identidad){this.documento_identidad;}
+    public void setNombre_acudiente(String nombre_acudiente){this.nombre_acudiente;}
+
+    @Override
+    public String toString(){
+        return "Ninio{" +
+                "ID: "} + iD + '\'' +
+                "Nombres: "} + nombre_completo + '\'' +
+                "Genero: "} + genero + '\'' +
+                "Documento identidad: "} + documento_identidad + '\'' +
+                "Nombre acudiente: "} + nombre_acudiente + '\'' +
+                "Edad: "} + edad + '\'' +
+                '}';
+        }
 
 }
