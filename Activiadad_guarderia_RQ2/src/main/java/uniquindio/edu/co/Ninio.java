@@ -16,5 +16,41 @@ public class Ninio {
     public String getID() {
         return iD;
     }
-    
+    public String getNombre_completo() {
+        return nombre_completo;
+    }
+    public String getGenero(){
+        return genero;
+    }
+    public String getDocumento_identidad() {
+        return documento_identidad;
+    }
+    public String getNombre_acudiente() {
+        return nombre_acudiente;
+    }
+    public int getEdad(){
+        return edad;
+    }
+    public void setiD(String iD) {
+        this.iD = iD;
+    }
+    public String setID() {
+        return iD;
+    }
+    public String setNombre_completo() {
+        return nombre_completo;
+    }
+    public String setGenero(){
+        return genero;
+    }
+    public String setDocumento_identidad() {
+        return documento_identidad;
+    }
+    public String setNombre_acudiente() {
+        return nombre_acudiente;
+    }
+    public int setEdad(){
+        return edad;
+    }
+
 }
